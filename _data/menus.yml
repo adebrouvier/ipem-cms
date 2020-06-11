@@ -1,0 +1,7 @@
+sidebar:
+  - url: /projects
+     title: Projects
+  - url: /posts
+     title: Posts
+  - url: /about
+     title: About
