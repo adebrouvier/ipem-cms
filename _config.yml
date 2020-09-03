@@ -1,6 +1,6 @@
-title: Belkirk College of Engineering
-short_title: Belkirk
-description: Jekyll demo for Forestry CMS
+title: Instituto Privado de Enseñanza Musical
+short_title: IPEM
+description: IPEM se dedica desde el año 1986 a la enseñanza musical. Buscamos ayudarte a realizar tus primeros pasos en la música o enriquecer lo que ya sabes.
 baseurl:
 permalink: "/:path/"
 defaults:
