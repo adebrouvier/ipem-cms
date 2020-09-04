@@ -6,9 +6,9 @@
 
 <header class="site-header">
   <div class="container">
-      <h1 class="logo">
+      <div class="logo">
         <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
-      </h1>
+      </div>
       <nav class="main-nav">
         <ul class="navigation">
           {% for link in site.menus.navigation %}
@@ -46,5 +46,13 @@
           {% endfor %}
         </ul>
     </nav>
+      {% if site.data.information %}
+      {% assign info = site.data.information %}
+      <ul class="social-networks">
+        {% if info.instagram %} <li><a href="https://www.instagram.com/{{info.instagram}}" target="_blank"><i class="fab fa-instagram"></i></a></li> {% endif %}
+        {% if info.facebook %} <li><a href="https://www.facebook.com/{{info.facebook}}" target="_blank"><i class="fab fa-facebook"></i></a></li>{% endif %}
+        {% if info.youtube %} <li><a href="https://www.youtube.com/channel/{{info.youtube}}" target="_blank"><i class="fab fa-youtube"></i></a></li> {% endif %}
+      </ul>
+      {% endif %}
   </div>
 </header>

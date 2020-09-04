@@ -1,0 +1,54 @@
+.site-header {
+  min-height: 120px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-top: 15px;
+  }
+
+  .main-nav {
+    ul {
+      float: none;
+      margin-top: 30px;
+    }
+  }
+
+  $links-color: #5B708B;
+
+  .navigation, .social-networks {
+    li {
+      list-style: none;
+    }
+    li > a {
+      color: $links-color;
+      font-weight: 400;
+    }
+    li.current > a {
+      color: $main-color;
+      border-bottom-color: $main-color;
+    }
+    li > a:hover {
+      color: $main-color;
+    }
+  }
+
+  .social-networks {
+    display: flex;
+    margin-top: 35px;
+    li {
+      margin-left: 0;
+      a {
+        padding: 5px 8px;
+      }
+    }
+    .fab {
+      color: $links-color;
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
+}
