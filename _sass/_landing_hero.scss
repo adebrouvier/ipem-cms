@@ -1,0 +1,39 @@
+.landing-hero {
+  display: flex;
+  font-family: "Noto Sans";
+  height: calc(100vh - 120px);
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+      color: black;
+      font-size: 64px;
+      font-weight: 700;
+      letter-spacing: -3px;
+      line-height: 100%;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 34px;
+      letter-spacing: 0;
+      line-height: 125%;
+      margin-bottom: 20px;
+    }
+    .link {
+      button {
+        background-color: $main-color;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        font-size: 24px;
+        padding: 6px 10px;
+      }
+    }
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

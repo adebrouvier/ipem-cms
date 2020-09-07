@@ -1,6 +1,7 @@
 ---
 title: Inicio
 banner_image: "/img/banner.png"
+show_default_hero: false
 layout: landing-page
 heading: IPEM
 partners: []

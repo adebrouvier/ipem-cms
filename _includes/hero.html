@@ -1,3 +1,4 @@
+{% if page.show_default_hero %}
 {% if page.banner_image and page.banner_image != "" %}
 	<header id="banner" style="background-image: url('{{ page.banner_image | absolute_url }}');">
 		<div class="container pure-g">
@@ -47,4 +48,5 @@
 			</div>
 		</div>
 	</header>
+{% endif %}
 {% endif %}
