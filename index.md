@@ -15,11 +15,11 @@ services:
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Instituto Privado de Enseñanza Musical
-textline: "Entrá al mundo de la música.  \nRealizá tus primeros pasos o enriquecé
-  lo que ya sabés."
+textline: Entrá al mundo de la música.
+sub_textline: Realizá tus primeros pasos o enriquecé lo que ya sabés.
 hero_button:
-  text: Learn more
-  href: "/about"
+  text: Ver Talleres
+  href: "/talleres"
 show_news: true
 show_staff: false
 menu:
