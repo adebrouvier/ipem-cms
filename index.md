@@ -4,7 +4,13 @@ banner_image: "/img/banner.png"
 show_default_hero: false
 layout: landing-page
 heading: IPEM
-partners: []
+# partners: []
+call_to_action:
+  title: ¡Reservá tu lugar!
+  description: No te quedes afuera.
+  action:
+    text: Contacto 
+    href: /contact
 services:
 - description: Performing collaborative research and providing services to support
     the Health Sector.
