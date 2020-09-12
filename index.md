@@ -41,6 +41,7 @@ services:
    a sus familiares y amigos ver la evolución del alumno.
   heading: Muestras Musicales
   icon: "/uploads/2020/09/11/music.png"
+services_title: Vení a aprender.
 sub_heading: Instituto Privado de Enseñanza Musical
 textline: Entrá al mundo de la música.
 sub_textline: Realizá tus primeros pasos o enriquecé lo que ya sabés.
