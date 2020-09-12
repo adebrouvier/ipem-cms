@@ -11,6 +11,25 @@ call_to_action:
   action:
     text: Contacto 
     href: /contact
+featured:
+  - title: Talleres y Cursos
+    src: /uploads/2020/09/12/partitura.jpeg
+    href: /talleres
+    button: Ver más >
+    description:
+      - >-
+        IPEM se dedica a la enseñanza de piano, órgano, guitarra clásica y
+        eléctrica, bajo, batería, canto, percusión y violín.
+      - Clases presenciales y online.
+  - title: Nosotros
+    src: /uploads/2020/09/12/instalaciones.jpg
+    href: /about
+    button: Ver más >
+    description:
+      - >-
+        Contamos con 4 aulas totalmente equipadas con los elementos necesarios para
+        el desarrollo de las clases: instrumentos, amplificadores, afinadores, cables, atriles, reproductores de audio, etc.
+      - Amplia biblioteca y discoteca.
 services:
 - description: Se dictan clases a alumnos de todas las edades. Ofrecemos amplios horarios para mayor comidad de nuestros alumnos.
   heading: Clases

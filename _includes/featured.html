@@ -1,0 +1,18 @@
+<section class="featured">
+    <div class="container pure-g">
+        {% for item in page.featured %}
+            <div class="featured-item {% cycle 'right-image', '' %}">
+                <img class="image" src="{{ item.src }}">
+                <div class="description">
+                    <div class="title">{{ item.title }}</div>
+                    <ul>
+                        {% for element in item.description %}
+                        <li><i class="fa fa-check-circle icon" aria-hidden="true"></i><span> {{ element }}</span> </li>
+                        {% endfor %}
+                    </ul>
+                    <a class="see-more" href="{{ item.href }}"><button class="outline">{{ item.button }}</button></a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

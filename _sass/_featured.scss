@@ -1,0 +1,49 @@
+.featured {
+  .featured-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    .image, .description {
+      max-width: 50%;
+    }
+
+    .image {
+      width: 500px;
+      border-radius: 10px;
+    }
+
+    .description {
+      margin-left: 20px;
+      .title {
+        color: $main-color;
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 30px;
+      }
+      ul {
+        padding-left: 20px;
+        list-style-type: none;
+        li {
+          font-size: 17px;
+          text-align: justify;
+          margin-bottom: 30px;
+          .icon {
+            margin-right: 5px;
+            color: #16c995;
+          }
+        }
+      }
+      .see-more {
+        margin-left: 20px;
+      }
+    }
+  }
+  .featured-item.right-image {
+    flex-direction: row-reverse;
+    .description {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+  }
+}

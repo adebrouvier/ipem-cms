@@ -1,7 +1,29 @@
+body, .pure-g {
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: normal;
+}
+
 button {
   background-color: $main-color;
   border: 0;
   border-radius: 10px;
   color: white;
   padding: 6px 10px;
+  &:hover {
+    background-color: #1e2070;
+    transition-duration: 300ms;
+  }
+}
+
+button.outline {
+  background-color: white;
+  border: 1px solid $main-color;
+  border-radius: 10px;
+  color: $main-color;
+  padding: 6px 10px;
+  &:hover {
+    background-color: $main-color;
+    color: white;
+    transition-duration: 300ms;
+  }
 }
