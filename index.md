@@ -12,14 +12,16 @@ call_to_action:
     text: Contacto 
     href: /contact
 services:
-- description: Performing collaborative research and providing services to support
-    the Health Sector.
-  heading: Health
-  icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing services to support
-    the biotechnology sector.
-  heading: BioTech
-  icon: "/uploads/2017/11/13/biotech.png"
+- description: Se dictan clases a alumnos de todas las edades. Ofrecemos amplios horarios para mayor comidad de nuestros alumnos.
+  heading: Clases
+  icon: "/uploads/2020/09/11/book.png"
+- description: Contamos con un equipo de profesores capaticados en su área.
+  heading: Equipo
+  icon: "/uploads/2020/09/11/team.png"
+- description:  Realizamos muestras musicales que permiten a los alumnos vivir la experiencia de tocar en un escenario y
+   a sus familiares y amigos ver la evolución del alumno.
+  heading: Muestras Musicales
+  icon: "/uploads/2020/09/11/music.png"
 sub_heading: Instituto Privado de Enseñanza Musical
 textline: Entrá al mundo de la música.
 sub_textline: Realizá tus primeros pasos o enriquecé lo que ya sabés.
