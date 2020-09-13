@@ -1,0 +1,5 @@
+<ul class="social-networks">
+    {% if info.instagram %} <li class="social-network"><a href="https://www.instagram.com/{{info.instagram}}" target="_blank " aria-label="Instagram"><i class="fab fa-instagram"></i></a></li> {% endif %}
+    {% if info.facebook %} <li class="social-network"><a href="https://www.facebook.com/{{info.facebook}}" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>{% endif %}
+    {% if info.youtube %} <li class="social-network"><a href="https://www.youtube.com/channel/{{info.youtube}}" target="_blank" aria-label="Youtube"><i class="fab fa-youtube"></i></a></li> {% endif %}
+</ul>

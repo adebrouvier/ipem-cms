@@ -1,7 +1,9 @@
 sidebar:
-  - url: /projects
-    title: Projects
+  - url: /talleres
+    title: Talleres
   - url: /posts
-    title: Posts
+    title: Blog
   - url: /about
-    title: About
+    title: Acerca de Nosotros
+  - url: /contact
+    title: Contacto
