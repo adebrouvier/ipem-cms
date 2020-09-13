@@ -1,0 +1,12 @@
+.site-footer {
+  .social-networks {
+    display: flex;
+    font-size: 20px;
+    .social-network {
+      margin-right: 10px;
+      i:hover {
+        color: white;
+      }
+    }
+  }
+}
