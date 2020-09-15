@@ -49,6 +49,13 @@ hero_button:
   text: Ver Talleres
   href: "/talleres"
 show_news: true
+news: 
+  title: Últimas Novedades
+  read: Leer
+  see_more:
+    button: Ver más
+    href: /posts
+show_twitter_news: false
 show_staff: false
 menu:
   navigation:
