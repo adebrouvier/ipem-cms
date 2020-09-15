@@ -13,7 +13,7 @@ call_to_action:
     href: /contact
 featured:
   - title: Talleres y Cursos
-    src: /uploads/2020/09/12/partitura.jpeg
+    src: /uploads/2020/09/15/partitura.jpeg
     href: /talleres
     button: Ver más >
     description:
@@ -22,7 +22,7 @@ featured:
         eléctrica, bajo, batería, canto, percusión y violín.
       - Clases presenciales y online.
   - title: Nosotros
-    src: /uploads/2020/09/12/instalaciones.jpg
+    src: /uploads/2020/09/15/instalaciones.jpg
     href: /about
     button: Ver más >
     description:
