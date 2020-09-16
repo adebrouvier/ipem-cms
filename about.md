@@ -1,14 +1,10 @@
 ---
-title: About
-date: 2017-11-01 03:00:00 +0000
-banner_image: "/uploads/2018/02/17/college-building.jpg"
-heading: About Belkirk
-sub_heading: Ora et Labora
-layout: landing-page
-textline: A multidisciplinary centre of experts who are essential to patient-oriented
-  research.
-publish_date: 2017-12-01 04:00:00 +0000
-show_staff: true
+title: Acerca de Nosotros
+date: 2020-09-15 20:30:00 -0300
+heading: Acerca de Nosotros
+layout: page
+publish_date: 2020-09-15 20:30:00 -0300
+show_staff: false
 menu:
   navigation:
     identifier: _about
@@ -18,6 +14,22 @@ menu:
     weight: 3
 ---
 
-The Belkirk College of Engineering (Belkirk) specializes in innovative research to support the healthcare and biotech industries. We are interested in advancing research in areas that are pressing and relevant to the health and biotech industries and regularly develop new projects and collaborations to accomplish this goal. We are currently engaged in a variety of ongoing projects within the areas of mental health, data analysis, knowledge translation, and cluster research.
+# Acerca de Nosotros
+## Historia
 
-Students at Belkirk get to learn from leaders in the biotech industy, as well as get access to cutting edge projects and technologies to further their learning endeavours.
+I.P.E.M comenzó su actividad en la Avenidad Roca en el año 1986. Por entonces se dictaban clases de piano en un espacio 
+pequeño y contaba con muy pocos alumnos. Con esfuerzo, dedicación y amor por la música fuimos creciendo día a día.
+
+Hoy, estamos orgullosos de poder ofrecer un espacio cómodo, equipado con los instrumentos y accesorios necesarios para
+ el buen desarrollo de las clases. Además de contar con un grupo de profesores comprometidos con la tarea de guiar a 
+ nuestros alumnos por el marvilloso camino de la música.
+
+## Misión, Visión y Valores
+### Misión
+Enseñar los elementos de la música en sus aspectos teóricos y prácticos en cada área, asegurando el aprendizaje en un clima cordial y de respeto.
+
+### Visión
+Ser un instituto musical que aporte a la comunidad un espacio donde se descubran y desarrollen las habilidades musicales latentes en toda persona.
+
+### Valores
+El I.P.E.M. contribuye a reforzar aquellos valores que son importantes en todo ser humano: respeto, tolerancia y responsabilidad.
