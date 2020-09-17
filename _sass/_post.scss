@@ -1,0 +1,16 @@
+.post {
+  .post-title {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+
+  .post-content {
+    text-align: justify;
+    color: black;
+    &::first-letter {
+      font-size: 150%;
+    }
+  }
+}
