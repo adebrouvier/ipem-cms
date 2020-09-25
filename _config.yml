@@ -20,9 +20,9 @@ collections:
   posts:
     output: true
     permalink: "/blog/:path/"
-  projects:
+  courses:
     output: true
-    permalink: "/projects/:path/"
+    permalink: "/talleres/:path/"
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 jekyll-archives:

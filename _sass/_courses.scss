@@ -1,0 +1,38 @@
+.courses {
+  .services {
+    padding-top: 0;
+  }
+  .title {
+    color: $main-color;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .courses-introduction {
+    margin-bottom: 50px;
+  }
+
+  .course {
+    border-width: 2px;
+    border-style: solid;
+    border-color: $main-color;
+    color: $main-color;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    text-decoration:none;
+
+    &:hover {
+      background-color: $main-color;
+      color: white;
+      transition-duration: 300ms;
+    }
+  }
+}
