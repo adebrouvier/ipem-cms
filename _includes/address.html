@@ -5,15 +5,19 @@
 {% if site.data.information %}
 {% assign info = site.data.information %}
 <p>
-  {% if site.title %}{{ site.title }}<br />{% endif %}
-  <br />
-  {% if info.address_1 %}{{ info.address_1 }}<br />{% endif %}
+  {% if info.address_1 %}<i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ info.address_1 }}{% endif %}
   {% if info.address_2 %}{{ info.address_2 }}<br />{% endif %}
   {% if info.country and info.state and info.city %}
   {{ info.city }}, {{ info.state }}, {{ info.country }}<br />
   {% endif %}
   <br />
-  {% if info.phone %}<a href="tel:{{ info.phone }}" title="{{ info.phone }}">{{ info.phone }}</a><br />{% endif %}
-  {% if info.email %}<a href="mailto:{{ info.email }}" title="{{ info.email }}">{{ info.email }}</a>{% endif %}
+  {% if info.phone %}
+  <i class="fa fa-phone-square" aria-hidden="true"></i>
+  <a href="tel:{{ info.phone }}" title="{{ info.phone }}">{{ info.phone }}</a><br />
+  {% endif %}
+  {% if info.email %}
+  <i class="fa fa-envelope" aria-hidden="true"></i>
+  <a href="mailto:{{ info.email }}" title="{{ info.email }}">{{ info.email }}</a>
+  {% endif %}
 </p>
 {% endif %}
