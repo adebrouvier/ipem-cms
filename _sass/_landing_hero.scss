@@ -1,6 +1,6 @@
 .landing-hero {
   display: flex;
-  height: calc(100vh - 120px);
+  height: calc(100vh - #{$nav-height});
   .text {
     display: flex;
     flex-direction: column;

@@ -14,7 +14,9 @@
 	added as the content variable
 {% endcomment %}
 
-{{ content }}
+<div class="main-content {{ page.content_class }}">
+  {{ content }}
+</div>
 
 {% include footer.html %}
 
