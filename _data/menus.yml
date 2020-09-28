@@ -1,9 +1,11 @@
 sidebar:
-  - url: /talleres
+  - url: /
+    title: Inicio
+  - url: /talleres/
     title: Talleres
-  - url: /posts
+  - url: /blog/
     title: Blog
-  - url: /about
+  - url: /about/
     title: Acerca de Nosotros
-  - url: /contact
+  - url: /contact/
     title: Contacto
