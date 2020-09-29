@@ -5,7 +5,7 @@
         <div class="posts">
             {% for post in site.posts limit:2 %}
             <div class="post">
-                <span class="category">NOTICIAS</span>
+                <span class="category">{{ post.category }}</span>
                 <span class="title">{{ post.title }}</span>
                 <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
                 <span class="sub-title">{{ post.sub_heading }}</span>

@@ -3,8 +3,8 @@ title: ¿La modalidad de clases en línea, llegó para quedarse?
 date: 2020-09-15 20:30:00 -0300
 related_posts: []
 sub_heading:
-tags:
-  - Noticias
+category: Noticias
+tags: []
 layout: post
 banner_image: ''
 ---
