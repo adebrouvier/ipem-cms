@@ -42,6 +42,17 @@
     }
   }
 
+
+  @media screen and (max-width: 600px) {
+    .posts {
+      flex-direction: column;
+      .post {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
   .see-more {
     width: 100%;
     text-align: center;
