@@ -1,6 +1,11 @@
-.list-layout {
+.post-list-item {
   .post-title {
-    color: black;
-    font-weight: 600;
+    a {
+      color: $main-color;
+      font-weight: 600;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
