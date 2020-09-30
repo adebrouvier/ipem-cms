@@ -1,8 +1,8 @@
 title: Instituto Privado de Enseñanza Musical
 short_title: IPEM
 description: IPEM se dedica desde el año 1986 a la enseñanza musical. Buscamos ayudarte a realizar tus primeros pasos en la música o enriquecer lo que ya sabes.
-baseurl: ""
-url: "https://adebrouvier.github.io/"
+baseurl:
+url: "https://adebrouvier.github.io"
 permalink: "/:path/"
 defaults:
   - scope:
