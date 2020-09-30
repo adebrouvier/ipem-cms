@@ -54,7 +54,7 @@ news:
   read: Leer
   see_more:
     button: Ver más
-    href: /posts
+    href: /blog
 show_twitter_news: false
 show_staff: false
 menu:
