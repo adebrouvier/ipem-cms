@@ -29,8 +29,27 @@ collections:
 jekyll-archives:
   enabled: all
   layout: "archive"
+
+# jekyll-seo-tag
+social:
+  name: Instituto Privado de Enseñanza Musical
+  links:
+    - https://www.twitter.com/ipemcr
+    - https://www.facebook.com/ipem.cr
+    - https://www.instagram.com/ipemcomodororivadavia
+    - https://www.youtube.com/channel/UCeSQ99ApVWQfJlayppctdEQ
+
+twitter:
+  username: ipemcr
+  card: summary
+
+lang: es_AR
+
+logo: /img/logo.png
+
 plugins:
   - jekyll-menus
   - jekyll-feed
   - jekyll-archives
   - jekyll-sitemap
+  - jekyll-seo-tag
