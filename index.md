@@ -18,8 +18,8 @@ featured:
     button: Ver más >
     description:
       - >-
-        IPEM se dedica a la enseñanza de piano, órgano, guitarra clásica y
-        eléctrica, bajo, batería, canto, percusión y violín.
+        IPEM se dedica a la enseñanza de piano, guitarra clásica y
+        eléctrica, bajo, batería, percusión y violín.
       - Clases presenciales y online.
   - title: Nosotros
     src: "/uploads/2020/09/15/instalaciones.jpg"
@@ -31,10 +31,10 @@ featured:
         el desarrollo de las clases: instrumentos, amplificadores, afinadores, cables, atriles, reproductores de audio, etc.
       - Amplia biblioteca y discoteca.
 services:
-- description: Se dictan clases a alumnos de todas las edades. Ofrecemos amplios horarios para mayor comidad de nuestros alumnos.
+- description: Se dictan clases a alumnos de todas las edades. Ofrecemos amplios horarios para mayor comodidad de nuestros alumnos.
   heading: Clases
   icon: "/uploads/2020/10/02/book.png"
-- description: Contamos con un equipo de profesores capaticados en su área.
+- description: Contamos con un equipo de profesores capacitados en su área.
   heading: Equipo
   icon: "/uploads/2020/10/02/team.png"
 - description:  Realizamos muestras musicales que permiten a los alumnos vivir la experiencia de tocar en un escenario y
