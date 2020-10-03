@@ -2,7 +2,7 @@
     <div class="container pure-g">
         {% for item in page.featured %}
             <div class="featured-item {% cycle 'right-image', '' %}">
-                <img class="image" src="{{ item.src | absolute_url }}">
+                <img class="image" src="{{ item.src | absolute_url }}" alt="{{item.alt}}">
                 <div class="description">
                     <div class="title">{{ item.title }}</div>
                     <ul>

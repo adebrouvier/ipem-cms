@@ -5,17 +5,21 @@ show_default_hero: false
 layout: landing-page
 heading: IPEM
 # partners: []
+landing_hero:
+  src: img/hero-image.png
+  alt: Alumnos interpretando canciones en la muestra musical de IPEM
 call_to_action:
   title: ¡Reservá tu lugar!
   description: No te quedes afuera.
   action:
-    text: Contacto 
+    text: Contacto
     href: /contact
 featured:
   - title: Talleres y Cursos
     src: "/uploads/2020/09/15/partitura.jpeg"
     href: /talleres
     button: Ver más >
+    alt: Plano de una partitura
     description:
       - >-
         IPEM se dedica a la enseñanza de piano, guitarra clásica y
@@ -24,6 +28,7 @@ featured:
   - title: Nosotros
     src: "/uploads/2020/09/15/instalaciones.jpg"
     href: /about
+    alt: Fachada del instituto
     button: Ver más >
     description:
       - >-
