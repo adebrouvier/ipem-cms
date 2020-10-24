@@ -1,6 +1,6 @@
 .landing-hero {
   display: flex;
-  height: calc(100vh - #{$nav-height});
+  min-height: 800px;
   .text {
     display: flex;
     flex-direction: column;
@@ -30,6 +30,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media screen and (max-width: 720px) {
+    min-height: 0px;
   }
 
   @media screen and (max-width: 600px) {
