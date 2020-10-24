@@ -1,6 +1,6 @@
 .landing-hero {
   display: flex;
-  min-height: 800px;
+  min-height: 900px;
   .text {
     display: flex;
     flex-direction: column;
@@ -32,8 +32,8 @@
     align-items: center;
   }
 
-  @media screen and (max-width: 720px) {
-    min-height: 0px;
+  @media screen and (max-height: 768px) {
+    min-height: 700px;
   }
 
   @media screen and (max-width: 600px) {
