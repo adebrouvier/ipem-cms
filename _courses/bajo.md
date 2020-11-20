@@ -10,10 +10,15 @@ slug: ''
 ---
 
 # Bajo
-Asisten los alumnos que ya han desarrollado habilidad y poseen un manejo previo de guitarra clásica. El plan de estudio
-abarca: estudio de notas, escalas, modos, improvisación y acordes. 
+Comenzá a estudiar Bajo o perfecciona tu técnica. Las clases son personalizadas según tengas
+conocimiento previo o no.
 
-Se conocerán las técnicas de ejecución del instrumento con el objetivo de aplicar las mismas en obras (canciones). 
+Conocerás las partes del instrumento, escalas, arpegios, digitación y todo lo necesario para que con
+estudio y práctica logres el dominio de la "4 cuerdas".
 
-Se apunta fundamentalmente a alcanzar un grado de conocimiento que le permita al alumno tocar como solista o como
- integrante de un grupo (banda).
+## Temario General
+
+* Estudio de escalas
+* Estudio de arpegios
+* Estudio de digitación
+* Estudio de patrones rítmicos

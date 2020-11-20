@@ -10,6 +10,17 @@ slug: ''
 ---
 
 # Trompeta
-Técnica de respiración, embocadura, lectura, improvisación, son los pilares para lograr dominio de un instrumento
-de viento, es por eso que a los alumnos se les enseña desde cero,  todo lo que  necesitan saber para consolidarse 
-como intérprete. Clases para niños, jóvenes y adultos.
+
+En este curso, te enseñamos ejercicios específicos y eficaces para que poco a poco, logres un sonido
+cada vez más profesional.
+
+## Temario General
+
+Se trabajaran ejercicios para mejorar en los siguientes aspectos:
+
+* Respiración
+* Mejorar la musculatura bucal, facial, y abdominal
+* Mejorar la flexibilidad de los labios
+* Articular mejor el sonido
+* Ampliar el registro de notas
+* Aumentar el volumen y resistencia

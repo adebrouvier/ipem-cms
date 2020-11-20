@@ -10,12 +10,17 @@ slug: ''
 ---
 
 # Violín
-Objetivos generales, desarrollar las aptitudes y habilidades en el manejo del instrumento, de tal manera que sean 
-capaces de interpretar repertorio de diversos estilos musicales de acuerdo a su nivel, como solistas y como miembros de
-un grupo, teniendo en cuenta los elementos técnicos e interpretativos adquiridos y a su vez despertar el aprecio y el 
-respeto por el arte de la música a través del conocimiento del instrumento.
+Te proponemos desarrollar las aptitudes y habilidades en el manejo del instrumento, de tal manera
+que seas capaz de interpretar repertorio de diversos estilos musicales de acuerdo a tu nivel, como
+solista o como miembro de un grupo, teniendo en cuenta los elementos técnicos e interpretativos
+adquiridos.
 
-* Técnicas violinísticas.
-* Conocimiento del instrumento.
-* Posición corporal.
-* Articulación y digitación.
+A medida que avances, crecerá tu destreza y el aprecio por la música, a través del
+conocimiento del instrumento.
+
+## Temario General
+* Conocimiento del instrumento
+* Posición corporal
+* Estudio de lectura y escritura en pentagrama
+* Estudio de articulaciones
+* Estudio de digitaciones

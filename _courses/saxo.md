@@ -10,6 +10,13 @@ slug: ''
 ---
 
 # Saxo
-Técnica de respiración, embocadura, lectura, improvisación, son los pilares para lograr dominio de un instrumento
-de viento, es por eso que a los alumnos se les enseña desde cero,  todo lo que  necesitan saber para consolidarse 
-como intérprete. Clases para niños, jóvenes y adultos.
+
+Aprendé las digitaciones adecuadas para cada escala o estilo, para que con práctica y trabajo puedas
+alcanzar un sonido con color y correctamente afinado.
+
+## Temario General
+
+* Ejercicios para lograr una buena embocadura
+* Ejercicio para mejorar el vibrato
+* Ejercicios para lograr efectos sonoros
+* Estudio de las digitaciones
