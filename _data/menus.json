@@ -1,0 +1,24 @@
+{
+    "sidebar": [
+      {
+        "url": "/",
+        "title": "Inicio"
+      },
+      {
+        "url": "/talleres/",
+        "title": "Talleres"
+      },
+      {
+        "url": "/blog/",
+        "title": "Blog"
+      },
+      {
+        "url": "/about/",
+        "title": "Acerca de Nosotros"
+      },
+      {
+        "url": "/contact/",
+        "title": "Contacto"
+      }
+    ]
+}
