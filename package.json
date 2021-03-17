@@ -1,0 +1,29 @@
+{
+  "name": "ipem-cms",
+  "version": "1.0.0",
+  "description": "Jekyll site for [Forestry CMS](https://forestry.io), based on [belkirk-jekyll-demo](https://github.com/forestryio-templates/belkirk-jekyll-demo).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adebrouvier/ipem-cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adebrouvier/ipem-cms/issues"
+  },
+  "homepage": "https://github.com/adebrouvier/ipem-cms#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "eslint": "^7.22.0"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.2.0"
+  }
+}
