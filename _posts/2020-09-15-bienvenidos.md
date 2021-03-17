@@ -1,10 +1,10 @@
 ---
 title: ¡Bienvenidos al nuevo sitio!
-date: 2020-09-15 12:00:00 -0300
+date: 2020-09-15 12:00:00 -03:00
 related_posts: []
-sub_heading:
+sub_heading: ''
 category: Noticias
-tags: []
+tags: post
 layout: post
 banner_image: ''
 ---
