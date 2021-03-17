@@ -1,11 +1,11 @@
 ---
 title: Violín
-date: 2020-09-17 00:00:00 -0300
+date: 2020-09-17 00:00:00 -03:00
 categories: []
 description:
 banner_image:
 sub_heading:
-tags: []
+tags: courses
 slug: ''
 ---
 
