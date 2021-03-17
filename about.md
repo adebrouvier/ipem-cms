@@ -1,9 +1,9 @@
 ---
 title: Acerca de Nosotros
-date: 2020-09-15 20:30:00 -0300
+date: 2020-09-15 20:30:00 -03:00
 heading: Acerca de Nosotros
 layout: page
-publish_date: 2020-09-15 20:30:00 -0300
+publish_date: 2020-09-15 20:30:00 -03:00
 show_staff: false
 menu:
   navigation:

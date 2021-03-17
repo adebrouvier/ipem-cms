@@ -1,7 +1,7 @@
 ---
 title: Contacto
-date: 2020-09-24 23:30:00 -0300
-publish_date: 2020-09-24 23:30:00 -0300
+date: 2020-09-24 23:30:00 -03:00
+publish_date: 2020-09-24 23:30:00 -03:00
 content_class: 'contact'
 map:
   title: Mapa de la ubicación de IPEM
