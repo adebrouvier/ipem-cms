@@ -3,8 +3,8 @@ const pluginSass = require("eleventy-plugin-sass");
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginSass, {
-    watch: ['_scss'],
-    cleanCSS: true
+    watch: ['_scss/**/*.{scss,sass}'],
+    outputDir: 'css'
   });
 
   eleventyConfig.addLayoutAlias('default', '../_layouts/default.html');
@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('img');
   eleventyConfig.addPassthroughCopy('uploads');
+  eleventyConfig.addPassthroughCopy('css');
 
   return {
     dir: {
