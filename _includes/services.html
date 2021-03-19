@@ -1,20 +1,16 @@
-{% comment %}
-    Displays a list of services from a document's front matter
-{% endcomment %}
-
 {% if services %}
 <section class="services">
     <div class="container pure-g">
         <div class="title">{{ services_title }}</div>
-        {% for item in services %}
-        <div class="pure-u-1 pure-u-md-1-{{ forloop.length }}">
-              <div class="service">
-                  <div class="service-icon"><img src="{{ item.icon | absolute_url }}" alt=""></div>
-                  <h2>{{ item.heading }}</h2>
-                  <p>{{ item.description }}</p>
-              </div>
+        <div class="service-list">
+            {% for item in services %}
+                <div class="service">
+                    <div class="service-icon"><img src="{{ item.icon | url }}" alt=""></div>
+                    <h2>{{ item.heading }}</h2>
+                    <p>{{ item.description }}</p>
+                </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </section>
 {% endif %}
