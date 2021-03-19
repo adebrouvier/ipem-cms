@@ -1,6 +1,6 @@
 <section class="featured">
     <div class="container pure-g">
-        {% for item in page.featured %}
+        {% for item in featured %}
             <div class="featured-item {% cycle 'right-image', '' %}">
                 <img class="image" src="{{ item.src | absolute_url }}" alt="{{item.alt}}">
                 <div class="description">

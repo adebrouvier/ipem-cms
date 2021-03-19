@@ -6,6 +6,7 @@ description:
 banner_image:
 sub_heading:
 tags: courses
+layout: default
 slug: ''
 ---
 # Teoría Musical

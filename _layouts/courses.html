@@ -11,15 +11,15 @@ layout: default
 <div class="container pure-g">
 	<div class="pure-u-1">
 		<div class="content courses">
-			<h1>{{ page.title }}</h1>
+			<h1>{{ title }}</h1>
 			{% include services.html %}
-			<h2 class="courses-introduction">{{ page.introduction }}</h2>
+			<h2 class="courses-introduction">{{ introduction }}</h2>
 			<div class="grid-layout">
 				<div class="container pure-g">
-					{% for course in site.courses %}
+					{% for course in collections.courses %}
 					<div class="pure-u-1 pure-u-md-1-4">
 						<a href="{{ course.url | absolute_url }}" class="course">
-							<div>{{ course.title }}</div>
+							<div>{{ course.data.title }}</div>
 						</a>
 					</div>
 					{% endfor %}

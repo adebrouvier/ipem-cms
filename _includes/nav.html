@@ -11,7 +11,7 @@
       </div>
       <nav class="main-nav">
         <ul class="navigation">
-          {% for link in site.data.menus.sidebar %}
+          {% for link in menus.sidebar %}
           <li class="{% if url == link.url %}current{% endif %}">
                 <a href="{{ link.url | absolute_url }}">
                   {{ link.title }}
@@ -20,8 +20,8 @@
           {% endfor %}
         </ul>
     </nav>
-      {% if site.data.information %}
-      {% assign info = site.data.information %}
+      {% if information %}
+      {% assign info = information %}
       {% include social-networks.html %}
       {% endif %}
   </div>

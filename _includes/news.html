@@ -1,22 +1,22 @@
-{% if page.show_news %}
+{% if show_news %}
 <section class="news">
     <div class="container pure-g">
-        <h2 class="section-title">{{ page.news.title }}</h2>
+        <h2 class="section-title">{{ news.title }}</h2>
         <div class="posts">
-            {% for post in site.posts limit:2 %}
+            {% for post in collections.post limit:2 %}
             <div class="post">
-                <span class="category">{{ post.category }}</span>
-                <span class="title">{{ post.title }}</span>
+                <span class="category">{{ post.data.category }}</span>
+                <span class="title">{{ post.data.title }}</span>
                 <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
-                <span class="sub-title">{{ post.sub_heading }}</span>
+                <span class="sub-title">{{ post.data.sub_heading }}</span>
                 <a href="{{ post.url | absolute_url }}">
-                    <button class="outline">{{ page.news.read }}</button>
+                    <button class="outline">{{ news.read }}</button>
                 </a>
             </div>
             {% endfor %}
         </div>
-        <a href="{{ page.news.see_more.href | absolute_url }}" class="link see-more">
-            <button>{{ page.news.see_more.button }} <i class="fa fa-chevron-right"></i></button>
+        <a href="{{ news.see_more.href | absolute_url }}" class="link see-more">
+            <button>{{ news.see_more.button }} <i class="fa fa-chevron-right"></i></button>
         </a>
     </div>
 </section>

@@ -8,10 +8,10 @@
         <div class="content {% if include.class %}{{ include.class }}{% endif %}">
 					{% assign parts = page.url | split: "/" %}
 						<ul>
-							<li><a href="{{ site.baseurl | default: "/" }}">{{ site.data.breadcrumbs.home }}</a>&nbsp;<i class="fa fa-chevron-right"></i></li>
+							<li><a href="{{ site.baseurl | default: "/" }}">{{ breadcrumbs.home }}</a>&nbsp;<i class="fa fa-chevron-right"></i></li>
 							{% for part in parts offset: 1 %}
 								{% if forloop.last %}
-									<li class="active">{{ page.title }}</li>
+									<li class="active">{{ title }}</li>
 								{% else %}
 									{% assign text =  part | replace:'-', ' ' | capitalize %}
 									{% assign limit = forloop.index | plus: 1 %}

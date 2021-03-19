@@ -3,6 +3,7 @@ title: Contacto
 date: 2020-09-24 23:30:00 -03:00
 publish_date: 2020-09-24 23:30:00 -03:00
 content_class: 'contact'
+layout: default
 map:
   title: Mapa de la ubicación de IPEM
 menu:

@@ -2,22 +2,23 @@
   Displays the address from _data/information.yml properly formatted
 {% endcomment %}
 
-{% if site.data.information %}
-{% assign info = site.data.information %}
+{% if information %}
 <p>
-  {% if info.address_1 %}<i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ info.address_1 }}{% endif %}
-  {% if info.address_2 %}{{ info.address_2 }}<br />{% endif %}
-  {% if info.country and info.state and info.city %}
-  {{ info.city }}, {{ info.state }}, {{ info.country }}<br />
+  {% if information.address_1 %}
+    <i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ information.address_1 }}
+  {% endif %}
+  {% if information.address_2 %}{{ information.address_2 }}<br />{% endif %}
+  {% if information.country and information.state and information.city %}
+  {{ information.city }}, {{ information.state }}, {{ information.country }}<br />
   {% endif %}
   <br />
-  {% if info.phone %}
+  {% if information.phone %}
   <i class="fa fa-phone-square" aria-hidden="true"></i>
-  <a href="tel:{{ info.phone }}" title="{{ info.phone }}">{{ info.phone }}</a><br />
+  <a href="tel:{{ information.phone }}" title="{{ information.phone }}">{{ information.phone }}</a><br />
   {% endif %}
-  {% if info.email %}
+  {% if information.email %}
   <i class="fa fa-envelope" aria-hidden="true"></i>
-  <a href="mailto:{{ info.email }}" title="{{ info.email }}">{{ info.email }}</a>
+  <a href="mailto:{{ information.email }}" title="{{ information.email }}">{{ information.email }}</a>
   {% endif %}
 </p>
 {% endif %}

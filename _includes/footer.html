@@ -6,24 +6,24 @@
         <div class="footer-col pure-u-1 pure-u-md-1-4">
             <h3>{{ site.short_title }}</h3>
             <ul>
-            {% for item in site.data.menus.sidebar %}
+            {% for item in menus.sidebar %}
                 <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
             {% endfor %}
             </ul>
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>{{ site.data.footer.collection.title }}</h3>
+            <h3>{{ footer.collection.title }}</h3>
             <ul>
-            {% for course in site.courses limit:5 %}
-                <li><a href="{{ course.url | absolute_url }}">{{ course.title }}</a></li>
+            {% for course in collections.courses limit:5 %}
+                <li><a href="{{ course.url | url }}">{{ course.data.title }}</a></li>
             {% endfor %}
-            {% if site.courses | size > 5 %}
-                <li><a href="{{ site.data.footer.collection.href | absolute_url }}">{{ site.data.footer.collection.see_all }}</a></li>
+            {% if collections.courses.size > 5 %}
+                <li><a href="{{ footer.collection.href | absolute_url }}">{{ footer.collection.see_all }}</a></li>
             {% endif %}
             </ul>
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>{{ site.data.footer.contact }}</h3>
+            <h3>{{ footer.contact }}</h3>
             {% include address.html %}
             {% include social-networks.html %}
         </div>
