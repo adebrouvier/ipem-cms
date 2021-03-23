@@ -5,15 +5,17 @@
 {% if information %}
 <p>
   {% if information.address_1 %}
-  <i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ information.address_1 }}
+  <i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ information.address_1 }}<br/>
   {% endif %}
   {% if information.address_2 %}{{ information.address_2 }}{% endif %}
   {% if information.country and information.state and information.city %}
   {{ information.city }}, {{ information.state }}, {{ information.country }}
   {% endif %}
   {% if information.phone %}
-  <i class="fa fa-phone-square" aria-hidden="true"></i>
-  <a href="tel:{{ information.phone }}" title="{{ information.phone }}">{{ information.phone }}</a><br />
+  <p>
+    <i class="fa fa-phone-square" aria-hidden="true"></i>
+    <a href="tel:{{ information.phone }}" title="{{ information.phone }}">{{ information.phone }}</a>
+  </p>
   {% endif %}
   {% if information.email %}
   <i class="fa fa-envelope" aria-hidden="true"></i>
