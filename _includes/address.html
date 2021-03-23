@@ -5,7 +5,7 @@
 {% if information %}
 <p>
   {% if information.address_1 %}
-    <i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ information.address_1 }}
+  <i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ information.address_1 }}
   {% endif %}
   {% if information.address_2 %}{{ information.address_2 }}<br />{% endif %}
   {% if information.country and information.state and information.city %}
