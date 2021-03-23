@@ -7,11 +7,10 @@
   {% if information.address_1 %}
   <i class="fa fa-map-marker address-icon" aria-hidden="true"></i>{{ information.address_1 }}
   {% endif %}
-  {% if information.address_2 %}{{ information.address_2 }}<br />{% endif %}
+  {% if information.address_2 %}{{ information.address_2 }}{% endif %}
   {% if information.country and information.state and information.city %}
-  {{ information.city }}, {{ information.state }}, {{ information.country }}<br />
+  {{ information.city }}, {{ information.state }}, {{ information.country }}
   {% endif %}
-  <br />
   {% if information.phone %}
   <i class="fa fa-phone-square" aria-hidden="true"></i>
   <a href="tel:{{ information.phone }}" title="{{ information.phone }}">{{ information.phone }}</a><br />
