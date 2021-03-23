@@ -8,6 +8,9 @@ sub_heading:
 tags: courses
 layout: page
 slug: ''
+eleventyNavigation:
+  key: Bajo
+  parent: Talleres
 ---
 
 # Bajo

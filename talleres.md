@@ -19,5 +19,6 @@ menu:
     identifier: _talleres
     url: "/talleres/"
     weight: 2
-
+eleventyNavigation:
+  key: Talleres
 ---

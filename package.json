@@ -21,6 +21,7 @@
   "homepage": "https://github.com/adebrouvier/ipem-cms#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
     "eslint": "^7.22.0"
   },
   "dependencies": {

@@ -1,4 +1,5 @@
 const pluginSass = require("eleventy-plugin-sass");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
 
@@ -6,6 +7,8 @@ module.exports = function(eleventyConfig) {
     watch: ['_scss/**/*.{scss,sass}'],
     outputDir: 'css'
   });
+
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addLayoutAlias('default', '../_layouts/default.html');
   eleventyConfig.addLayoutAlias('posts', '../_layouts/posts.html');
