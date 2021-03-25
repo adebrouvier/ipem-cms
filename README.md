@@ -1,17 +1,17 @@
 # IPEM CMS
 
-Jekyll site for [Forestry CMS](https://forestry.io), based on [belkirk-jekyll-demo](https://github.com/forestryio-templates/belkirk-jekyll-demo).
+Eleventy static site, migrated from [belkirk-jekyll-demo](https://github.com/forestryio-templates/belkirk-jekyll-demo).
 
 
 ## Development
 To install dependencies:
 
 ```
-bundle install
+npm install
 ```
 
 Run development server:
 
 ```
-bundle exec jekyll serve
+npm run serve
 ```
