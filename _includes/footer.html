@@ -4,7 +4,7 @@
             <img src="{{ "/img/logo-white.png" | absolute_url }}" alt="" class="footer-logo">
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>{{ site.short_title }}</h3>
+            <h3>{{ information.short_title }}</h3>
             <ul>
             {% for item in menus.sidebar %}
                 <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
@@ -30,7 +30,7 @@
 	</div>
 	<div class="copyright">
         <p>
-            &copy;{{ 'now' | date: "%Y" }} {{ site.title }}<br>
+            &copy;{{ 'now' | date: "%Y" }} {{ information.short_title }}<br>
             {% if site.admin %}
               <a href="{{ "/admin" | absolute_url }}">Site Admin</a>
             {% endif %}
