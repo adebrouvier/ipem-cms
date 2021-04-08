@@ -38,5 +38,10 @@ fields:
   type: text
   hidden: true
   default: post
+- name: category
+  type: text
+  config:
+    required: false
+  label: Category
 pages:
 - _posts/2021-04-08-clases-presenciales-2021.md
