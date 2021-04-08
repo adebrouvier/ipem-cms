@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'Clases Presenciales 2021 '
-sub_heading: ''
+sub_heading: Retomamos de a poco la presencialidad de los talleres.
 date: 2021-04-08 16:33:00 -0300
-tags: []
+tags:
+- Noticias
 banner_image: ''
 related_posts: []
 
