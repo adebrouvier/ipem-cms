@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Novedades Mayo 2021
-sub_heading: ''
+sub_heading: Nuevos cursos dictados de manera presencial
 date: 2021-05-19 21:00:00 -0300
 tags: []
 banner_image: ''
