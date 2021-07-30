@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Clases de Violin online
-sub_heading: Nuevo taller del instituto
+title: Clases de Violín online
+sub_heading: "¡Nuevo taller del instituto!"
 date: 2021-07-29 00:00:00 -0300
 tags: []
 banner_image: ''
