@@ -1,0 +1,30 @@
+questions:
+  - question: "¿Cómo son las clases: presenciales o virtuales?"
+    answer: "Los talleres que actualmente se dictan de manera **presencial** son:
+Guitarra clásica, guitarra eléctrica, bajo, batería, piano, saxo, trompeta.
+Los talleres que actualmente se dictan de manera **virtual** son: canto y violín."
+  - question: "¿Cómo me inscribo para tomar clases presenciales?"
+    answer: "Podés solicitar la ficha de inscripción, el protocolo y la declaración jurada por E-mail,
+WhatsApp o personalmente."
+  - question: "¿Cómo me inscribo para las clases virtuales?"
+    answer: Podés solicitar la ficha de inscripción por mail o WhatsApp.
+  - question: "¿Puedo inscribirme en cualquier momento?"
+    answer: "Podes inscribirte entre los meses de marzo y noviembre, que son los meses en que estamos en
+actividad."
+  - question: ¿Cuántas clases semanales son y de qué duración son?
+    answer: "Es 1 clase semanal de 50 minutos."
+  - question: ¿Son grupales o individuales?
+    answer: "Las clases presenciales, son individuales o en grupos de no más de 3 alumnos.
+Las clases virtuales son individuales."
+  - question: ¿Es necesario tener conocimientos previos?
+    answer: No, no es necesario, ya que dictamos clases desde el nivel elemental o principiante.
+  - question: ¿Es necesario llevar el instrumento para las clases presenciales?
+    answer: "En el caso de: guitarra clásica, guitarra eléctrica y bajo:
+Si, es necesario contar con el instrumento y llevarlo a la clase para tener un avance normal,
+aunque en caso de no tenerlo, te prestamos uno hasta tanto puedas tener el propio.<br>
+En el caso de piano y batería, no es necesario llevar el instrumento, ya que las aulas están
+equipadas, aunque, recomendamos tener el propio en casa, para poder realizar la práctica
+indicada en la clase."
+  - question: Además del instrumento, ¿Qué necesito para las clases virtuales?
+    answer: "Para las clases virtuales, además del el instrumento  es necesario contar con conexión a internet
+y la aplicación Zoom descargada en el dispositivo a usar."

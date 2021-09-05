@@ -9,3 +9,5 @@ sidebar:
     title: Acerca de Nosotros
   - url: /contact/
     title: Contacto
+  - url: /faq/
+    title: Preguntas Frecuentes

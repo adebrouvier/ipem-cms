@@ -3,7 +3,6 @@
   .container {
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
   }
 
   .logo {
@@ -39,6 +38,7 @@
   .social-networks {
     display: flex;
     margin-top: 35px;
+    padding-left: 0;
     li {
       margin-left: 0;
       a {
