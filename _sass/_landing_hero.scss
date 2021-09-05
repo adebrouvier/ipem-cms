@@ -37,8 +37,13 @@
   }
 
   @media screen and (max-width: 600px) {
+    min-height: 0;
+    margin-bottom: 50px;
     .image {
       display: none;
+    }
+    .text {
+      justify-content: normal;
     }
   }
 }
