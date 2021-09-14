@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/faq.yml
+  label: Frequently Asked Questions
+  match: "**/*"
 - type: heading
   label: Content
 - type: jekyll-posts
