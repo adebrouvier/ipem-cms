@@ -10,13 +10,24 @@
   }
 
   .main-nav {
+    display: flex;
+    flex: 1;
     ul {
       float: none;
       margin-top: 30px;
     }
+    li {
+      margin-left: 0;
+    }
   }
 
   $links-color: #5B708B;
+
+  .navigation {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+  }
 
   .navigation, .social-networks {
     li {
@@ -56,6 +67,16 @@
   @media screen and (max-width: 600px) {
     .social-networks {
       visibility: hidden;
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    .navigation {
+      flex-wrap: wrap;
+    }
+
+    .navigation > li {
+      flex-basis: 10%;
     }
   }
 }
