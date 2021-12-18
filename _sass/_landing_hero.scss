@@ -38,12 +38,21 @@
 
   @media screen and (max-width: 1024px) {
     min-height: 0;
-    margin-bottom: 50px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
     .image {
       display: none;
     }
     .text {
-      justify-content: normal;
+      text-align: center;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .text {
+      max-width: 75%;
     }
   }
 }

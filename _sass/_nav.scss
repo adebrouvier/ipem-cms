@@ -38,6 +38,7 @@
     li > a {
       color: $links-color;
       font-weight: 400;
+      display: inline-block;
     }
     li.current > a {
       color: $main-color;
@@ -70,15 +71,18 @@
     .social-networks {
       visibility: hidden;
     }
+    .navigation {
+      visibility: hidden;
+    }
   }
 
-  @media all and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .navigation {
       flex-wrap: wrap;
     }
 
     .navigation > li {
-      flex-basis: 10%;
+      flex-basis: 20%;
     }
   }
 }
