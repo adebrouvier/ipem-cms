@@ -14,8 +14,9 @@ menu:
 # Contacto
 ## Horario de atención
 
-- **Lunes a Viernes**, 14:00 hs. a 20:00 hs.
-- **Sábados**, 10:00 hs. a 14:00 hs.
+- **Lunes a Jueves:** 14:00 hs. a 20:00 hs.
+- **Viernes:** 16:00 hs. a 20:00 hs.
+- **Sábados y Domingos:** Cerrado.
 
 ## Información de contacto
 {% include address.html %}

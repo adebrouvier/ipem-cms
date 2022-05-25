@@ -16,7 +16,7 @@ call_to_action:
     href: /contact
 featured:
   - title: Talleres y Cursos
-    src: "/uploads/2020/09/15/partitura.jpeg"
+    src: "/uploads/2022/05/24/piano.jpg"
     href: /talleres
     button: Ver más >
     alt: Plano de una partitura
@@ -26,7 +26,7 @@ featured:
         eléctrica, bajo, batería, percusión y violín.
       - Clases presenciales y online.
   - title: Nosotros
-    src: "/uploads/2020/09/15/instalaciones.jpg"
+    src: "/uploads/2022/05/24/instalaciones-2022.jpg"
     href: /about
     alt: Fachada del instituto
     button: Ver más >
@@ -54,7 +54,7 @@ hero_button:
   text: Ver Talleres
   href: "/talleres"
 show_news: true
-news: 
+news:
   title: Últimas Novedades
   read: Leer
   see_more:
