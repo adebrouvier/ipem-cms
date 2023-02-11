@@ -47,7 +47,7 @@ lang: es_AR
 
 logo: /img/logo.png
 
-google_analytics_id: UA-103656812-1
+google_analytics_id: G-10G2QY2R0T
 
 plugins:
   - jekyll-menus
