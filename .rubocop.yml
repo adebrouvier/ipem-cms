@@ -1,0 +1,5 @@
+Style/FrozenStringLiteralComment:
+  Enabled: False
+
+Style/SymbolArray:
+  Enabled: False
