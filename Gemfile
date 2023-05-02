@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.2'
-gem 'sentry-ruby'
+gem 'jekyll', '~> 4.3'
+gem 'sentry-ruby', '~> 5.9'
 gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do
@@ -14,7 +14,7 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'rubocop'
+  gem 'rubocop', '~> 1.50'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
