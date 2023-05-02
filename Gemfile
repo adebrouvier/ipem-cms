@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.2'
-gem "webrick", "~> 1.8"
 gem 'sentry-ruby'
+gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-feed'
-  gem 'jekyll-menus', :github => 'forestryio/jekyll-menus', :ref => '288acfa'
+  gem 'jekyll-menus', github: 'forestryio/jekyll-menus', ref: '288acfa'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-tagging'
