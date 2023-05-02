@@ -1,19 +1,20 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.2'
-gem 'sentry-ruby'
+gem 'jekyll', '~> 4.3'
+gem 'sentry-ruby', '~> 5.9'
+gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-feed'
-  gem 'jekyll-menus'
+  gem 'jekyll-menus', github: 'forestryio/jekyll-menus', ref: '288acfa'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-tagging'
 end
 
 group :development do
-  gem 'rubocop'
+  gem 'rubocop', '~> 1.50'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
