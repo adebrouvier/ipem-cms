@@ -7,6 +7,7 @@ banner_image:
 sub_heading:
 tags: []
 slug: ''
+_template: courses
 ---
 
 # Piano

@@ -7,7 +7,7 @@ tags: []
 banner_image: ''
 related_posts: []
 category: Noticias
-
+_template: post
 ---
 Estamos muy contentos de anunciar, que a partir del mes de agosto Nahuel Luminoso estará a cargo de las clases de violín modalidad online en IPEM.
 

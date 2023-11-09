@@ -4,6 +4,7 @@ Jekyll site for [Forestry CMS](https://forestry.io), based on [belkirk-jekyll-de
 
 
 ## Development
+### Jekyll
 To install dependencies:
 
 ```
@@ -14,4 +15,16 @@ Run development server:
 
 ```
 bundle exec jekyll serve
+```
+##
+### Jekyll and CMS
+To install dependencies:
+```
+bundle install
+npm install
+```
+
+Run Tina CMS and development server:
+```
+npx tinacms dev -c "bundle exec jekyll serve"
 ```

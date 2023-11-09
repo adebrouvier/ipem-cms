@@ -7,6 +7,7 @@ tags: []
 banner_image: ''
 related_posts: []
 category: Noticias
+_template: post
 
 ---
 Desde el mes de abril las clases de canto en modalidad online están a cargo de la profesora Ana Laura Diaz. Queremos contarles que comenzó su recorrido musical a una temprana edad estudiando en distintos institutos de música: en 2018 obtuvo la Tecnicatura Superior de músico profesional con orientación en Canto y Dirección coral, actualmente se encuentra estudiando una Tecnicatura en dirección de orquestas y coros infantiles y juveniles.
