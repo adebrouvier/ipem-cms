@@ -7,13 +7,14 @@ category: Noticias
 tags: []
 layout: post
 banner_image: ''
+_template: post
 ---
 La tecnología es una gran aliada a la hora de enseñar a tocar un instrumento. La modalidad en línea hace posible
-un trato  individual (profesor-alumno) y personalizado, las clases pueden  planificarse  de acuerdo al, nivel, edad e 
+un trato  individual (profesor-alumno) y personalizado, las clases pueden  planificarse  de acuerdo al, nivel, edad e
 intereses musicales. El alumno tiene la oportunidad de aprender a su ritmo, recibir el material de estudio y la tarea
-por E-mail. 
+por E-mail.
 
-Es posible establecer  una comunicación fluida y permanente entre profesor y alumno por los medios que 
+Es posible establecer  una comunicación fluida y permanente entre profesor y alumno por los medios que
 dispongan, correo electrónico, celular, etc. Amigarse con la tecnología en forma responsable y poder hacer
 las cosas que nos gustan a pesar de estar transitando tiempos impensados y difíciles, es reconfortante y tranquilizador.
 

@@ -2,13 +2,14 @@
 layout: post
 title: 'Clases Presenciales 2021 '
 sub_heading: Retomamos de a poco la presencialidad de los talleres.
-date: 2021-04-08 16:33:00 -0300
+date: '2021-04-08 16:33:00 -0300'
 tags: []
 banner_image: ''
 related_posts: []
 category: Noticias
-
+_template: post
 ---
+
 Estamos felices de informar que el día lunes 5 de abril dimos inicio a las clases presenciales de guitarra clásica. Si todo se desarrolla favorablemente, iremos incorporando las demás actividades en forma gradual. 
 
 Es indispensable que nos cuidemos y cuidemos a nuestros alumnos, por lo que se encuentra en vigencia la aplicación del protocolo “vuelta a clases “.

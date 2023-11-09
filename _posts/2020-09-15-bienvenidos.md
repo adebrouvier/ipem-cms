@@ -7,6 +7,7 @@ category: Noticias
 tags: []
 layout: post
 banner_image: ''
+_template: post
 ---
 ¡Nos enorgullece presentarles el nuevo sitio de IPEM! Decidimos renovar este espacio para poder ofrecer una forma
 renovada de comunicarnos con nuestros alumnos, interesados en tomar clases y cualquier amante de la música.

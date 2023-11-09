@@ -4,8 +4,9 @@ title: Canto
 sub_heading: ''
 banner_image: ''
 slug: ''
-
+_template: courses
 ---
+
 # Canto
 
 Las clases de canto son en modalidad presencial, se trabaja con grupos reducidos de hasta 4/5
