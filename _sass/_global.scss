@@ -3,16 +3,14 @@ body, .pure-g, .pure-g [class*="pure-u"] {
   letter-spacing: normal;
 }
 
-button {
+.button {
   background-color: $main-color;
   border: 0;
   border-radius: 10px;
   color: white;
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  padding: 6px 10px;
+  text-decoration: none;
+  width: fit-content;
+  padding: 1% 3%;
   &:hover {
     background-color: #1e2070;
     transition-duration: 300ms;
@@ -23,7 +21,7 @@ a {
   color: $main-color;
 }
 
-button.outline {
+.button.outline {
   background-color: white;
   border: 1px solid $main-color;
   border-radius: 10px;
