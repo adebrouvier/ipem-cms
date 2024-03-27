@@ -22,9 +22,8 @@
   .action {
     font-size: 20px;
     background-color: white;
-    a {
-      color: $call-to-action-bg;
-    }
+    color: $call-to-action-bg;
+    padding: 10% 10%;
     &:hover {
       background-color: #dddddd;
     }

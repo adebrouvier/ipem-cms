@@ -2,8 +2,6 @@
     <div class="title">{{ page.call_to_action.title }}</div>
     <div class="subtitle">{{ page.call_to_action.description }}</div>
     <div>
-        <button class="action" >
-            <a href="{{ page.call_to_action.action.href | absolute_url }}">{{ page.call_to_action.action.text }}</a>
-        </button>
+        <a class="button action" href="{{ page.call_to_action.action.href | absolute_url }}">{{ page.call_to_action.action.text }}</a>
     </div>
 </div>

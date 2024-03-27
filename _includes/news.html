@@ -9,14 +9,14 @@
                 <span class="title">{{ post.title }}</span>
                 <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
                 <span class="sub-title">{{ post.sub_heading }}</span>
-                <a href="{{ post.url | absolute_url }}">
-                    <button class="outline">{{ page.news.read }}</button>
+                <a class="button outline" href="{{ post.url | absolute_url }}">
+                    {{ page.news.read }}
                 </a>
             </div>
             {% endfor %}
         </div>
-        <a href="{{ page.news.see_more.href | absolute_url }}" class="link see-more">
-            <button>{{ page.news.see_more.button }} <i class="fa fa-chevron-right"></i></button>
+        <a class="button link see-more" href="{{ page.news.see_more.href | absolute_url }}">
+            {{ page.news.see_more.button }} <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 </section>
