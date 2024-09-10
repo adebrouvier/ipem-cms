@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@tinacms/cli": "^1.5.45",
+    "@tinacms/cli": "^1.6.3",
     "npx": "^10.2.2",
-    "tinacms": "^1.6.4"
+    "tinacms": "^2.2.3"
   }
 }
