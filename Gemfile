@@ -14,7 +14,7 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'rubocop', '~> 1.53'
+  gem 'rubocop', '~> 1.69'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
