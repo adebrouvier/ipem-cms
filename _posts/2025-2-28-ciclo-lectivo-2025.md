@@ -2,7 +2,7 @@
 title: Ciclo lectivo 2025
 sub_heading: Inicio de actividades
 date: 2025-03-28T22:40:00.000Z
-banner_image: /img/bienvenidos%20a%20clases.png
+banner_image: ''
 layout: post
 category: Noticias
 ---
