@@ -18,6 +18,11 @@ bundle exec jekyll serve
 ```
 ##
 ### Jekyll and CMS
+To use npm enviroment
+```
+nvm use
+```
+
 To install dependencies:
 ```
 bundle install

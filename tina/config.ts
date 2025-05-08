@@ -31,6 +31,11 @@ export default defineConfig({
         label: "Noticias",
         name: "posts",
         path: "_posts",
+        defaultItem: () => {
+          return {
+            layout: 'post',
+          };
+        },
         match: {
           include: "*",
         },
@@ -190,5 +195,13 @@ export default defineConfig({
         ],
       },
     ],
+  },
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH_TOKEN,
+      stopwordLanguages: ['spa'],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
   },
 });
