@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.4'
 gem 'sentry-ruby', '~> 5.16'
-gem 'webrick', '~> 1.8'
+gem 'webrick', '~> 1.9'
 
 group :jekyll_plugins do
   gem 'jekyll-archives'
