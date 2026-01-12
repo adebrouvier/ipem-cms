@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.4'
-gem 'sentry-ruby', '~> 5.16'
+gem 'sentry-ruby', '~> 6.2'
 gem 'webrick', '~> 1.9'
 
 group :jekyll_plugins do
