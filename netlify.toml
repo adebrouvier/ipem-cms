@@ -1,5 +1,5 @@
 [build]
-  command = "npx tinacms build && jekyll build"
+  command = "npx tinacms build && bundle install && bundle exec jekyll build"
 
 [[plugins]]
   package = "@sentry/netlify-build-plugin"
