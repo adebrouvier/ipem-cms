@@ -34,6 +34,7 @@ export default defineConfig({
         defaultItem: () => {
           return {
             layout: 'post',
+	    date: new Date(),
           };
         },
         match: {
