@@ -272,11 +272,23 @@ export function postFields() {
       type: "string",
       name: "layout",
       label: "Layout",
+      options: [
+        {
+	  value: "post",
+	  label: "Post",
+	}
+      ]
     },
     {
       type: "string",
       name: "category",
       label: "Category",
+      options: [
+        {
+          value: 'noticias',
+          label: 'Noticias',
+        }
+      ]
     },
   ] as TinaField[];
 }
