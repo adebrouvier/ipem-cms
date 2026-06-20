@@ -1,0 +1,11 @@
+{% comment %}
+  Displays the opening hours from _data/information.yml properly formatted
+{% endcomment %}
+
+{% if site.data.information %}
+{% assign info = site.data.information %}
+<ul>
+  <li>Lunes a Viernes: {{ info.hours_weekdays }}</li>
+  <li>Sábados y Domingo: {{ info.hours_weekend }}</li>
+</ul>
+{% endif %}
