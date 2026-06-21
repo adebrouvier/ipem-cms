@@ -1,4 +1,4 @@
-phone: 0297-4485832
+phone: 297-5000512
 email: info@ipemcomodoro.com.ar
 address_1: Av. Roca 1163
 address_2: ''
@@ -6,6 +6,8 @@ city: Comodoro Rivadavia
 state: Chubut
 postal_code: '9000'
 country: Argentina
+hours_weekdays: '15:00 hs. a 20:00 hs.'
+hours_weekend: Cerrado.
 twitter: ipemcr
 facebook: ipem.cr
 instagram: ipemcomodororivadavia
