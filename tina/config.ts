@@ -128,6 +128,7 @@ export default defineConfig({
             create: false,
             delete: false,
           },
+	  global: true
         },
         match: {
           include: "information",
@@ -173,6 +174,16 @@ export default defineConfig({
             name: "country",
             label: "Country",
           },
+	  {
+	    type: "string",
+	    name: "hours_weekdays",
+	    label: "Hours Weekdays",
+	  },
+	  {
+	    type: "string",
+	    name: "hours_weekend",
+	    label: "Hours Weekend",
+	  },
           {
             type: "string",
             name: "twitter",
