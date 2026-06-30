@@ -107,14 +107,12 @@ export default defineConfig({
         match: {
           include: "*",
         },
+        defaultItem: () => {
+          return {
+            is_active: 'true',
+          };
+        },
         fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Cuerpo del documento",
-            description: "Descripción del curso.",
-            isBody: true,
-          },
           ...coursesFields(),
         ],
       },

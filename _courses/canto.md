@@ -1,9 +1,8 @@
 ---
 tags: []
 title: Canto
-sub_heading: ''
 banner_image: ''
-slug: ''
+is_active: true
 _template: courses
 ---
 
