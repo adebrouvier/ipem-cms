@@ -303,9 +303,16 @@ export function coursesFields() {
       isTitle: true,
     },
     {
-      type: "string",
-      name: "sub_heading",
-      label: "Sub Heading",
+      type: "rich-text",
+      name: "body",
+      label: "Cuerpo del documento",
+      description: "Descripción del curso.",
+      isBody: true,
+    },
+    {
+      type: "boolean",
+      name: "is_active",
+      label: "Active",
     },
     {
       type: "image",
@@ -320,11 +327,6 @@ export function coursesFields() {
       ui: {
         component: "tags",
       },
-    },
-    {
-      type: "string",
-      name: "slug",
-      label: "Slug",
-    },
+    }
   ] as TinaField[];
 }

@@ -1,16 +1,15 @@
 ---
-title: Jardín Musical
-date: 2022-04-22 21:00:00 -0300
+date: '2022-04-22 21:00:00 -0300'
 categories: []
-description:
-banner_image:
-sub_heading:
+description: null
+is_active: true
+title: Jardín Musical
+banner_image: null
 tags: []
-slug: ''
-_template: courses
 ---
 
 # Jardín Musical
+
 Hace tiempo nos pedían alguna actividad para niños pequeños y atendiendo a esa necesidad, se creó
 este curso. Está pensado para acercar a los chicos al mundo de la música. Los principales objetivos
 son, incentivar en ellos el cariño por la música, también aprender a construir y ejecutar

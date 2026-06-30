@@ -4,9 +4,8 @@ date: 2020-09-17 00:00:00 -0300
 categories: []
 description:
 banner_image:
-sub_heading:
 tags: []
-slug: ''
+is_active: true
 _template: courses
 ---
 
